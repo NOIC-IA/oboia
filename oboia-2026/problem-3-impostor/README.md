@@ -9,7 +9,8 @@ training data.
 | Solution (CLIP zero-shot similarity per character) | [`solution-ptbr.ipynb`](solution-ptbr.ipynb) | [`solution-en.ipynb`](solution-en.ipynb) |
 
 Each notebook starts with the full problem statement, scores itself on the public book, and ends with a bonus
-cell that scores the same method on the hidden book used for grading.
+section that runs the same method on the hidden book used for grading: its score, and a plot of the 10 pages
+it picked, marking which ones are real impostors.
 
 ## Results
 
