@@ -1,0 +1,8 @@
+# Datasets are published as GitHub release assets (too big for the repo); notebooks download them into data/.
+*.zip
+*.zip.part
+**/data/book/
+**/data/hidden/
+predictions.csv
+.ipynb_checkpoints/
+__pycache__/
