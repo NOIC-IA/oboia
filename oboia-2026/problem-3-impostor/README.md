@@ -11,6 +11,15 @@ training data.
 Each notebook starts with the full problem statement, scores itself on the public book, and ends with a bonus
 cell that scores the same method on the hidden book used for grading.
 
+## Results
+
+The notebooks are saved with their outputs. Scores from that run (Apple M5 Pro, CPU):
+
+| | Public book | Hidden book |
+|---|---|---|
+| Baseline | 3/10 impostors, score 0.007 | 2/10 impostors, score 0.003 |
+| Solution | 10/10 impostors, score 1.000 | 10/10 impostors, score 1.000 |
+
 ## Data
 
 - `data/book_ans.csv`: the 10 impostor pages of the public book.
